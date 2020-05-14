@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/list/list",
+    "pages/cart/cart",
+    "pages/info/info",
+    "pages/demo/demo"  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb5902",
+    "navigationBarTitleText": "匠心小镇",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#303030",
+    "selectedColor": "#eb5902",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/image/home.png",
+        "selectedIconPath": "/image/curHome.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "分类",
+        "iconPath": "/image/list.png",
+        "selectedIconPath": "/image/curList.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/image/cart.png",
+        "selectedIconPath": "/image/curCart.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "购物车",
+        "iconPath": "/image/user.png",
+        "selectedIconPath": "/image/curUser.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
